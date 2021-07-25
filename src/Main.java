@@ -1,19 +1,13 @@
-import helper.Postfix;
-
-import java.util.ArrayList;
+import list_im_arr.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-//        Postfix p = new Postfix();
-//        String infix = "((5*3)-((2*3)/(1+1)))";
-//        System.out.println("Infix: "+infix);
-//        System.out.print("Postfix: ");
-//        p.printArray(p.toPostfix(infix));
-//        System.out.println("Cal of Post: "+p.calPostFix(p.toPostfix(infix)));
-        ArrayList<Integer> myArray = new ArrayList<>();
-        myArray.add(5);
-        myArray.remove(0);
-        System.out.println(myArray.toString());
-        System.out.println(myArray.size());
+        ArrayList testArray = new ArrayList();
+//        testArray.add(20);
+//        testArray.add(30);
+        for(int i =0;i<20;i++) testArray.add(Integer.toString(i));
+        testArray.remove("10");
+        testArray.printArray();
+
     }
 }
