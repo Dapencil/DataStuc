@@ -1,4 +1,4 @@
-import list_im_arr.ArrayList;
+import Lab.ArrayList;
 
 public class Main {
     public static void main(String[] args) {

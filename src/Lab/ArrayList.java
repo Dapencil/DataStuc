@@ -1,4 +1,4 @@
-package list_im_arr;
+package Lab;
 
 import adt.List;
 
